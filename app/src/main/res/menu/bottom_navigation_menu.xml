@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/products"
+        android:enabled="true"
+        android:iconTint="@color/white"
+        android:title="products"
+        android:icon="@drawable/baseline_search_black_24dp"
+
+        />
+    <item
+        android:id="@+id/add"
+        android:enabled="true"
+        android:iconTint="@color/white"
+
+        android:title="addnew"
+        android:icon="@drawable/baseline_playlist_add_black_24dp"
+        />
+    <item
+        android:id="@+id/update"
+        android:enabled="true"
+        android:icon="@drawable/baseline_update_black_24dp"
+        android:title="update price"
+        android:iconTint="@color/white"
+
+        />
+    <item
+        android:id="@+id/cart"
+        android:enabled="true"
+        android:iconTint="@color/white"
+
+
+        android:icon="@drawable/baseline_shopping_cart_black_24dp"
+        android:title="Cart"/>
+</menu>

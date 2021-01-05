@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/dialogtitle"
+        android:text="name" android:gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/colorAccent">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/shapebt"
+        android:hint="Enter Price"
+        android:padding="5dp"
+        android:id="@+id/update_price_et"></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/shapebt3"
+        android:padding="5dp"
+        android:textSize="12dp"
+        android:id="@+id/update_dialog_bt"
+        android:text="update"></TextView>
+</LinearLayout>
